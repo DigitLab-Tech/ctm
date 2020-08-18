@@ -1,0 +1,10 @@
+{
+    "name": "cedp/service",
+    "type": "project",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Cedp\\Service\\": "app"
+      }
+    }
+}

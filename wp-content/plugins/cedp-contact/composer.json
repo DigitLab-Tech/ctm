@@ -1,0 +1,17 @@
+{
+    "name": "cedp/contact",
+    "description": "Create contact custom post type and frontend form to add contact request.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "cedp",
+            "email": "cedp.solutions@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Cedp\\Contact\\": "app"
+      }
+    }
+}

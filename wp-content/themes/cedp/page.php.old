@@ -1,0 +1,16 @@
+<?php
+  get_header();
+  $punchline = get_option('cedp_punch_line', '');
+?>
+  <div id="main-content" class="content flex-container flex-direction-column flex-justify-center">
+    <?php if(!empty($punchline)) : ?>
+      <div class='title-bar'>
+        <div class='container'>
+          <h1><?= $punchline ?></h1>
+        </div>
+      </div>
+    <?php endif; ?>
+    <?php do_action('cedp_render_content'); ?>
+  </div>
+<?php
+get_footer();

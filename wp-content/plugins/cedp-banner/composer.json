@@ -1,0 +1,17 @@
+{
+    "name": "cedp/banner",
+    "description": "Custom banner",
+    "type": "project",
+    "authors": [
+        {
+            "name": "cedp",
+            "email": "cedp.solutions@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Cedp\\Banner\\": "app"
+      }
+    }
+}

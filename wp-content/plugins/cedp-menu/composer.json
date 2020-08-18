@@ -1,0 +1,10 @@
+{
+    "name": "cedp/menu",
+    "type": "project",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Cedp\\Menu\\": "app"
+      }
+    }
+}

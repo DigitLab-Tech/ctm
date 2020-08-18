@@ -1,0 +1,117 @@
+.form-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: 1/2;
+  justify-self:stretch;
+  min-width: 350px;
+  gap:1rem;
+}
+
+.form-container > div{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:1rem;
+}
+
+.form-container .form-header{
+  grid-column: 1/2;
+}
+
+.form-container .form-body{
+  grid-column: 1/2;
+}
+
+.form-container .form-footer{
+  grid-column: 1/2;
+}
+
+.form-container form{
+  width: 100%;
+  display: grid;
+  grid-template-columns:1fr;
+  gap:1rem;
+}
+
+.form-container textarea{
+  resize:none;
+  height:150px;
+}
+
+.form-container input,
+.form-container textarea{
+  border: 1px solid #EDEDEE;
+  background-color: #fff;
+  margin: 0;
+  width: calc(100% - 2rem);
+  height: 3.33333rem;
+  border-radius: 0;
+  padding: 0 1rem;
+  outline: #262626;
+  font-family: Prompt-R, sans-serif;
+  font-size: 1rem;
+  line-height: 3.33333rem;
+  transition: all 240ms ease-in-out;
+}
+
+.form-container input:focus,
+.form-container textarea:focus{
+  border-color: #dfc13f;
+}
+
+.form-container input[type="submit"],
+.form-container  input[type="button"]{
+	background: #a95534;
+	border: none;
+	color:white;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  width: 100%;
+  line-height: inherit;
+}
+
+.form-container input[type="submit"]:hover,
+.form-container input[type="button"]:hover{
+	background: #994c2e;
+	color:#fff;
+}
+
+.form-container .input-container{
+  display: flex;
+  justify:center;
+}
+
+.form-container .form-header h3{
+  text-transform: uppercase;
+}
+
+.form-container .input-container.alert input{
+  border:2px solid #ff291f;
+  border-right: none;
+  color:#ff291f;
+}
+
+.form-container .input-container.alert input::placeholder{
+  color:#ff291f;
+}
+
+.form-container .input-container .msg-container{
+    transition: all 240ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+.form-container .input-container.alert .msg-container{
+  border:2px solid #ff291f;
+  border-left: none;
+  color:#ff291f;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.form-container.submited .form-body{
+  display: none;
+}

@@ -1,0 +1,24 @@
+.headline-container{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(0, rgb(164,226,0) 50%, rgba(164,226,0,0) 50%);
+  padding-bottom: 2rem;
+}
+
+.headline-container .content{
+  color:rgba(52,53,52, 1);
+  width:100%;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding: 0 2rem;
+  font-family: Prompt-EB, Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 1280px){
+  .headline-container .content{
+    max-width: 1500px;
+  }
+}

@@ -1,0 +1,23 @@
+footer{
+    grid-column: 1/5;
+}
+.footer.container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    padding-top:1rem;
+    padding-bottom:1rem;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    font-family: "Prompt-L";
+    font-size: 0.8rem;
+    color: #a95534;
+}
+
+.footer.container .logo img{
+  max-height:5vh;
+  width:auto;
+}

@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+/*
+ Theme Name:   CEDP
+ Version:      1.0.0
+ Theme URI:    https://cedp.solution
+ Description:  Design for us
+ Author:       CEDP
+ Author URI:   https://cedp.solution
+ License:      GNU General Public License version 3
+ License URI:  http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
+ Requires PHP: 5.6
+*/
+
+@font-face {
+    font-family: "Prompt-L";
+    src: url("assets/fonts/prompt/Prompt-Light.ttf");
+}
+
+@font-face {
+    font-family: "Prompt-R";
+    src: url("assets/fonts/prompt/Prompt-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Prompt-B";
+    src: url("assets/fonts/prompt/Prompt-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Prompt-EB";
+    src: url("assets/fonts/prompt/Prompt-Black.ttf");
+}
+
+:root{
+    --accent-color-1:#994c2e;
+    --accent-color-2:#dfc13f;
+    --dark-gray:rgb(77,82,77);
+    --light-gray:rgb(150,150,150);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    font-family: Prompt-R, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+h1{
+  font-size: 4rem;
+    line-height: 3.7rem;
+  font-family: Prompt-EB, Arial, Helvetica, sans-serif;
+  margin: 1rem;
+}
+
+h2{
+  font-size: 2rem;
+  font-family: Prompt-B, Arial, Helvetica, sans-serif;
+}
+
+h3{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: Prompt-B, Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-weight: 100;
+}
+
+i{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#vanta-bg{
+  position: fixed;
+  width:100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+/*.container{
+    display: grid;
+    grid-column: 1/5;
+    grid-template-columns: minmax(0, 1fr) minmax(auto, 450px) minmax(auto,450px) minmax(0, 1fr);
+    justify-content: stretch;
+    align-content: stretch;
+}
+
+.container-half{
+    display: grid;
+    justify-content: stretch;
+    align-content: stretch;
+}
+
+.container-half.left{
+    grid-column: 1/3;
+    grid-template-columns: minmax(0, 1fr) minmax(auto, 450px);
+}
+
+.container-half.right{
+    grid-column: 3/5;
+    grid-template-columns: minmax(auto, 450px) minmax(0, 1fr);
+}
+
+.bg-light-grey{
+    background: var(--light-gray);
+}
+
+.bg-dark-grey{
+    background: var(--dark-gray);
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 1fr
+}
+
+.headline{
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.content-section{
+  grid-column: 1 / 2;
+  margin-top: -50px;
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
+.box-shadow{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.sticky{
+    position: sticky;
+    top:0px;
+}
+
+.underline-red,
+.underline-yellow{
+    display:flex;
+}
+
+.underline-red::after,
+.underline-yellow::after{
+    content: '';
+    width: 2rem;
+    height: 0.5rem;
+    margin-top: 3.5rem;
+    margin-left: -1rem;
+    display: inline-block;
+}
+
+.underline-red::after{
+    background-color: #a95534;
+}
+
+.underline-yellow::after {
+    background-color: #dfc13f;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 460px) {
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1280px){
+    h1{
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+
+    .container{
+        grid-template-columns: 1fr minmax(750px,1fr) minmax(750px, 1fr) 1fr;
+    }
+
+    .container-half.left{
+        grid-template-columns: 1fr minmax(750px, 1fr);
+    }
+
+    .container-half.right{
+        grid-template-columns: minmax(750px, 1fr) 1fr;
+    }
+}
+
+@media (max-width: 991px){
+    h1 {
+        font-size: 4.2rem;
+        line-height: 3.8rem;
+    }
+
+    .container-half.left{
+        grid-column: 1/5;
+        grid-template-columns: 1fr;
+    }
+
+    .container-half.right{
+        grid-column: 1/5;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px){
+    h1{
+        font-size: 3.7rem;
+        line-height: 3.5rem;
+    }
+}
+*/

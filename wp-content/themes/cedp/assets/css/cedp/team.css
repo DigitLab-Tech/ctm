@@ -1,0 +1,105 @@
+.team{
+    padding:0.5rem 0;
+    margin-top: 1rem;
+}
+
+.team h3{
+    margin:0.2rem 0;
+    text-decoration: underline;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.team h4{
+    margin:0.1rem 0;
+    font-size: 0.9rem;
+}
+
+.team span{
+    font-size: 0.7rem;
+    font-family: Prompt-B, Arial, Helvetica, sans-serif;
+}
+
+.team .title{
+    padding-left:1rem;
+}
+
+
+.team a.member{
+    color:white;
+    text-decoration: unset;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.team a.member:hover .link{
+    transform: scale(1.1);
+}
+
+.team .fa-envelope{
+    padding:0;
+    font-size: 1.6rem;
+}
+
+.team .link{
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+    padding: 0 0.3rem ;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.team .link > div{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.team .link > div:first-child{
+    transform: translate(-50%, -150%);
+}
+
+.team .link > div:nth-child(2){
+    transform: translate(-50%, -50%);
+}
+
+.team a.member:hover .link > div:first-child{
+    transform: translate(-50%, -50%);
+}
+
+.team a.member:hover .link > div:nth-child(2){
+    transform: translate(-50%, 50%);
+}
+
+
+.team .member-title{
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.team .description h2{
+    color:white;
+    font-size: 2.5rem;
+}
+
+.team .description .content > div{
+    max-width:400px;
+}
+
+@media (max-width: 991px){
+    .members{
+        grid-row: 2/3;
+    }
+
+    .team .members > .content{
+        padding: 0 1rem;
+    }
+    /*.team a.member:first-child{
+        transform: translateY(-25%);
+    }*/
+}

@@ -1,0 +1,16 @@
+.banner-container{
+    grid-column: 1/5;
+}
+
+.banner-container .image-container{
+    max-height: 85vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    width:100%;
+}
+.banner-container img{
+    width: 100%;
+    height:auto;
+}
