@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c338072-22e5-4bc7-b6ae-67cb689f1825" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fmb0pSqbGNsoNXM2coTTZT4iXk" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins/cedp-team/app/View" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-team\app" />
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-menu\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-team\app\View" />
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-team\app" />
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-team" />
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-menu\app" />
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-menu" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c338072-22e5-4bc7-b6ae-67cb689f1825" name="Default Changelist" comment="" />
+      <created>1596825994801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596825994801</updated>
+      <workItem from="1596825995886" duration="8449000" />
+      <workItem from="1597064151542" duration="26607000" />
+      <workItem from="1597250396157" duration="60633000" />
+      <workItem from="1597505144636" duration="45037000" />
+      <workItem from="1597758318332" duration="9929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\laragon\www\ctm</wordpressPath>
+  </component>
+</project>

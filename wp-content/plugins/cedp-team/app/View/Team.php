@@ -3,11 +3,8 @@ namespace Cedp\Team\View;
 class Team{
   public static function render($collection){
       ?>
-      <style>
-
-      </style>
       <div id="team" class="team container grid col col m-to1">
-          <div class="members container flex column center vend">
+          <div class="members container flex column center vend" data-aos="fade-up-right">
               <div class="content half grid center col col s-to1 gap">
 	              <?php foreach ($collection as $member) : ?>
                       <a class="member container flex column center" href="mailto:<?= $member->get('email') ?>">
@@ -28,9 +25,9 @@ class Team{
 	              <?php endforeach; ?>
               </div>
           </div>
-          <div class="container flex column vstart center">
+          <div class="container flex column vstart center" data-aos="fade-left">
               <div class="content half flex">
-                  <div class="title underline-red"><h2>Qui sommes-nous</h2></div>
+                  <div class="title underline-red" ><h2>Qui sommes-nous</h2></div>
               </div>
               <div class="description container flex dgrey">
                   <div class="content half fill flex center">

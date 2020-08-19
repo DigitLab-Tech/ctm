@@ -4,66 +4,11 @@ namespace Cedp\Contact\View;
 class ContactForm {
 	public static function render( $data = [] ) {
 		?>
-        <style>
-            .contact{
-                margin-top:1rem;
-            }
-            .contact h2{
-                color:white;
-            }
-            .contact .detail span{
-                color:white;
-                font-size: 1.08rem;
-                line-height: 1.6rem;
-                font-weight: normal;
-            }
-
-            .contact .detail h3{
-                color:white;
-                font-size: 1.5rem;
-                font-weight: normal;
-            }
-
-            .contact .detail a{
-                font-size: 1.4rem;
-                font-weight: normal;
-                padding: 2rem;
-            }
-
-            .detail .content > div{
-
-            }
-
-            .detail a i{
-                transition: all 0.3s ease;
-            }
-
-            .detail a:hover i{
-                padding-left: 15px;
-                transform: scale(1.2);
-            }
-
-            .contact .form .content > div{
-                padding: 2rem 0;
-                max-width: 500px;
-                width:100%;
-            }
-
-            .contact .form .wrapper{
-                padding: 2rem;
-            }
-
-            @media (max-width: 991px){
-                .contact a{
-                    background: var(--light-gray);
-                }
-            }
-        </style>
         <div id="contact" class="contact container grid col col m-to1 grey">
-            <div class="info container flex column center vend">
+            <div class="info container flex column center vend" data-aos="fade-right">
                 <div class="content half fill flex center grey">
                     <div class="title underline-yellow">
-                        <h2 data-aos="fade-left" data-aos-once="true" data-aos-delay="100">Nous Joindre</h2>
+                        <h2>Nous Joindre</h2>
                     </div>
                 </div>
                 <div class="detail container flex vend dgrey">
@@ -82,8 +27,8 @@ class ContactForm {
             </div>
             <div class="form container flex start dgrey">
                 <div class="content flex half fill vcenter center">
-                    <div class="form-container">
-                        <div class="wrapper" data-aos="fade-up-right" data-aos-once="true">
+                    <div class="form-container" data-aos="fade-up-left" data-aos-delay="100">
+                        <div class="wrapper">
                             <div class="form-header">
                                 <div class="msg-container">
                                 </div>

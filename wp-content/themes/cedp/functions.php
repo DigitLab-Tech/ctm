@@ -42,15 +42,14 @@ add_action( 'wp_enqueue_scripts', 'add_cedp_css');
 function add_cedp_css(){
 	$uri = get_stylesheet_directory_uri();
 	wp_enqueue_style('cedp_flex_css', $uri.'/assets/css/cedp/flex.css');
-	wp_enqueue_style('cedp_form_css', $uri.'/assets/css/cedp/form.css');/*
-	*/wp_enqueue_style('cedp_header_css', $uri.'/assets/css/cedp/header.css');/*
-	*/wp_enqueue_style('cedp_menu_css', $uri.'/assets/css/cedp/menu.css');/*
+	wp_enqueue_style('cedp_form_css', $uri.'/assets/css/cedp/form.css');
+	wp_enqueue_style('cedp_header_css', $uri.'/assets/css/cedp/header.css');
+	wp_enqueue_style('cedp_menu_css', $uri.'/assets/css/cedp/menu.css');
 	wp_enqueue_style('cedp_banner_css', $uri.'/assets/css/cedp/banner.css');
-	wp_enqueue_style('cedp_headline_css', $uri.'/assets/css/cedp/headline.css');
 	wp_enqueue_style('cedp_service_css', $uri.'/assets/css/cedp/service.css');
-	*/wp_enqueue_style('cedp_team_css', $uri.'/assets/css/cedp/team.css');/*
+	wp_enqueue_style('cedp_team_css', $uri.'/assets/css/cedp/team.css');
 	wp_enqueue_style('cedp_contact_css', $uri.'/assets/css/cedp/contact.css');
-	*/wp_enqueue_style('cedp_footer_css', $uri.'/assets/css/cedp/footer.css');
+	wp_enqueue_style('cedp_footer_css', $uri.'/assets/css/cedp/footer.css');
 }
 
 add_action( 'wp_enqueue_scripts', 'remove_inline_css', 20);
