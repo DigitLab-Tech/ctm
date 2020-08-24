@@ -14,6 +14,6 @@ class Service{
   }
 
   public function render(){
-    \Cedp\Service\View\Service::render($this->_services);
+    \Cedp\Service\View\Service2::render($this->_services);
   }
 }

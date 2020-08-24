@@ -4,9 +4,9 @@ namespace Cedp\Contact\View;
 class ContactForm {
 	public static function render( $data = [] ) {
 		?>
-        <div id="contact" class="contact container grid col col m-to1 grey">
-            <div class="info container flex column center vend" data-aos="fade-right">
-                <div class="content half fill flex center grey">
+        <div id="contact" class="contact container grid col col m-to1">
+            <div class="info container flex column center vend grey">
+                <div class="content half fill flex center grey" data-aos="fade-right">
                     <div class="title underline-yellow">
                         <h2>Nous Joindre</h2>
                     </div>
@@ -14,7 +14,7 @@ class ContactForm {
                 <div class="detail container flex vend dgrey">
                     <div class="container flex vcenter end">
                         <div class="content half fill flex column center vcenter">
-                            <a class="white flex column" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=<?= urlencode(($address = get_option('cedp_contact_address', '')).','.($city = get_option('cedp_contact_city', '')).','.($zipcode = get_option('cedp_contact_zipcode', '')).','.($province = get_option('cedp_contact_province', ''))) ?>">
+                            <a class="white flex column" data-aos="fade-right" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=<?= urlencode(($address = get_option('cedp_contact_address', '')).','.($city = get_option('cedp_contact_city', '')).','.($zipcode = get_option('cedp_contact_zipcode', '')).','.($province = get_option('cedp_contact_province', ''))) ?>">
                                 <div><h3>Nos Bureaux</h3></div>
                                 <div><span><?= $address ?>,</span></div>
                                 <div><span><?= $city ?>, (<?= $province ?>),</span></div>
@@ -27,7 +27,7 @@ class ContactForm {
             </div>
             <div class="form container flex start dgrey">
                 <div class="content flex half fill vcenter center">
-                    <div class="form-container" data-aos="fade-up-left" data-aos-delay="100">
+                    <div class="form-container" data-aos="fade-up-left">
                         <div class="wrapper">
                             <div class="form-header">
                                 <div class="msg-container">

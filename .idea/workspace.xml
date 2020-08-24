@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c338072-22e5-4bc7-b6ae-67cb689f1825" name="Default Changelist" comment="" />
+    <list default="true" id="0c338072-22e5-4bc7-b6ae-67cb689f1825" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cedp-banner/app/View/Banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cedp-banner/app/View/Banner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cedp-contact/app/View/ContactForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cedp-contact/app/View/ContactForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cedp-service/app/Controller/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cedp-service/app/Controller/Service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cedp-service/app/View/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cedp-service/app/View/Service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cedp-team/app/View/Team.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cedp-team/app/View/Team.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cedp/assets/css/cedp/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cedp/assets/css/cedp/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cedp/assets/css/cedp/flex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cedp/assets/css/cedp/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cedp/assets/css/cedp/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cedp/assets/css/cedp/service.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cedp/assets/css/cedp/service.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cedp/assets/css/cedp/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cedp/assets/css/cedp/team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cedp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cedp/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cedp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cedp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/08/ffffff-1024x573.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/08/ffffff-1200x672.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/08/ffffff-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/08/ffffff-300x168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/08/ffffff-768x430.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/08/ffffff.jpg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +44,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fmb0pSqbGNsoNXM2coTTZT4iXk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins/cedp-team/app/View" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-team\app" />
-      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-menu\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-service\app\View" />
       <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-team\app\View" />
       <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-team\app" />
       <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-team" />
       <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-menu\app" />
-      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-menu" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-team\app" />
+      <recent name="C:\laragon\www\ctm\wp-content\plugins\cedp-menu\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -67,12 +88,26 @@
       <workItem from="1597064151542" duration="26607000" />
       <workItem from="1597250396157" duration="60633000" />
       <workItem from="1597505144636" duration="45037000" />
-      <workItem from="1597758318332" duration="9929000" />
+      <workItem from="1597758318332" duration="25899000" />
+      <workItem from="1598278111149" duration="8503000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\laragon\www\ctm</wordpressPath>

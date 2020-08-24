@@ -43,36 +43,37 @@
 }
 
 .service .info > .wrapper{
-  background: linear-gradient(180deg,rgba(0,0,0,0) 16.67%,#000000 100%);
+  background:/* linear-gradient(180deg,rgba(0,0,0,0) 16.67%,#000000 100%);*/var(--dark-gray);
   height:6rem;
   max-width: 450px;
   overflow: hidden;
-  padding: 1rem;
+  padding: 0 1rem 0 2rem;
   transition: all .5s ease;
 }
 
-.service .title{
-  padding-top: 1rem ;
+.service .title h3{
+  font-size: 1rem;
+  font-family: var(--primary-font-familly);
 }
 
 .service .title,
 .service .subtitle,
 .service .desc{
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 
 .service:hover .info > .wrapper{
-  height:calc(100% + 6rem);
+  height:calc(100% - 2rem);
 }
+
+.service .title{}
 
 .service .desc{
   color:rgba(255,255,255,0);
   height:0;
-}
-
-.service:hover .title,
-.service:hover .subtitle{
-  color:rgba(255,255,255,0);
+  font-size: 1rem;
+  line-height: 1.6rem;
+  text-align: center;
 }
 
 .service:hover .desc{
@@ -84,7 +85,7 @@
 }
 
 
-@media (max-width: 576px){
+@media (max-width: 991px){
   .services-container{
     grid-template-columns: 1fr;
   }

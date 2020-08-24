@@ -25,7 +25,7 @@ class Team{
 	              <?php endforeach; ?>
               </div>
           </div>
-          <div class="container flex column vstart center" data-aos="fade-left">
+          <div class="container flex column vstart center behind" data-aos="fade-left">
               <div class="content half flex">
                   <div class="title underline-red" ><h2>Qui sommes-nous</h2></div>
               </div>
